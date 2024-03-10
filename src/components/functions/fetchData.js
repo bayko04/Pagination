@@ -1,6 +1,6 @@
 import { MD5 } from "crypto-js"
 
-const API = "http://api.valantis.store:40000/"
+const API = "https://api.valantis.store:41000/"
 const API_PASSWORD = "Valantis"
 const timeStamp = new Date().toISOString().slice(0, 10).replace(/-/g, "")
 const authString = `${API_PASSWORD}_${timeStamp}`
