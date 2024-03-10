@@ -29,8 +29,6 @@ const Pagination = ({ data, elemPerPage, changePage, activePage }) => {
         }
     }
 
-    console.log(activePage)
-
     return (
         <div className={styles.pagination}>
             <ul
